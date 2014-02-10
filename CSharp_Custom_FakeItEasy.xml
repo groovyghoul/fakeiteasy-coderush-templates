@@ -71,12 +71,12 @@
 <a2:ArrayList id="ref-19" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
 <_items href="#ref-14"/>
 <_size>0</_size>
-<_version>0</_version>
+<_version>1</_version>
 </a2:ArrayList>
 <a2:ArrayList id="ref-20" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
 <_items href="#ref-21"/>
 <_size>5</_size>
-<_version>5</_version>
+<_version>11</_version>
 </a2:ArrayList>
 <SOAP-ENC:Array id="ref-21" SOAP-ENC:arrayType="xsd:anyType[8]">
 <item href="#ref-22"/>
@@ -130,7 +130,7 @@
 <OptSubIndex>-1</OptSubIndex>
 </a1:Template>
 <a1:Template id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
-<_Name id="ref-37">fieu</_Name>
+<_Name id="ref-37">ufie</_Name>
 <_Comment id="ref-38">Setup FakeItEasy using</_Comment>
 <_ExpansionTrigger xsi:type="a1:ExpansionTriggerOption" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">Primary</_ExpansionTrigger>
 <_CaseSensitiveName>false</_CaseSensitiveName>
@@ -158,27 +158,27 @@
 <a2:ArrayList id="ref-40" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
 <_items href="#ref-45"/>
 <_size>1</_size>
-<_version>4</_version>
+<_version>5</_version>
 </a2:ArrayList>
 <a2:ArrayList id="ref-41" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
 <_items href="#ref-46"/>
 <_size>1</_size>
-<_version>4</_version>
+<_version>5</_version>
 </a2:ArrayList>
 <a2:ArrayList id="ref-42" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
 <_items href="#ref-47"/>
 <_size>1</_size>
-<_version>4</_version>
+<_version>5</_version>
 </a2:ArrayList>
 <a2:ArrayList id="ref-43" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
 <_items href="#ref-48"/>
 <_size>1</_size>
-<_version>4</_version>
+<_version>5</_version>
 </a2:ArrayList>
 <a2:ArrayList id="ref-44" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
 <_items href="#ref-49"/>
 <_size>1</_size>
-<_version>4</_version>
+<_version>5</_version>
 </a2:ArrayList>
 <SOAP-ENC:Array id="ref-45" SOAP-ENC:arrayType="xsd:anyType[4]">
 <item href="#ref-50"/>
@@ -196,7 +196,7 @@
 <item href="#ref-54"/>
 </SOAP-ENC:Array>
 <a1:TemplateData id="ref-50" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
-<_Expansion id="ref-56">A&#60;int&#62;._</_Expansion>
+<_Expansion id="ref-56">«:ufie»A&#60;int&#62;._</_Expansion>
 <_IsExpression>false</_IsExpression>
 <_SuppressLastChar>false</_SuppressLastChar>
 <_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
@@ -205,7 +205,7 @@
 <_UsingClause href="#ref-58"/>
 </a1:TemplateData>
 <a1:TemplateData id="ref-51" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
-<_Expansion id="ref-59">A&#60;string&#62;._</_Expansion>
+<_Expansion id="ref-59">«:ufie»A&#60;string&#62;._</_Expansion>
 <_IsExpression>false</_IsExpression>
 <_SuppressLastChar>false</_SuppressLastChar>
 <_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
@@ -214,7 +214,7 @@
 <_UsingClause href="#ref-61"/>
 </a1:TemplateData>
 <a1:TemplateData id="ref-52" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
-<_Expansion id="ref-62">var mock«Caret»«FieldStart»«Link(ClassToMock)»«FieldEnd»«BlockAnchor» = A.Fake&#60;I«Link(ClassToMock)»&#62;();
+<_Expansion id="ref-62">«:ufie»var mock«Caret»«FieldStart»«Link(ClassToMock)»«FieldEnd»«BlockAnchor» = A.Fake&#60;I«Link(ClassToMock)»&#62;();
 A.CallTo(() =&#62; mock«Link(ClassToMock)».«Field(Method)»(«Field(Params)»).Returns(«Field(ValueToReturn)»);</_Expansion>
 <_IsExpression>false</_IsExpression>
 <_SuppressLastChar>false</_SuppressLastChar>
@@ -224,7 +224,7 @@ A.CallTo(() =&#62; mock«Link(ClassToMock)».«Field(Method)»(«Field(Params)»
 <_UsingClause href="#ref-64"/>
 </a1:TemplateData>
 <a1:TemplateData id="ref-53" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
-<_Expansion id="ref-65">var mock«Caret»«FieldStart»«Link(ClassToMock)»«FieldEnd»«BlockAnchor» = A.Fake&#60;I«Link(ClassToMock)»&#62;();</_Expansion>
+<_Expansion id="ref-65">«:ufie»var mock«Caret»«FieldStart»«Link(ClassToMock)»«FieldEnd»«BlockAnchor» = A.Fake&#60;I«Link(ClassToMock)»&#62;();</_Expansion>
 <_IsExpression>false</_IsExpression>
 <_SuppressLastChar>false</_SuppressLastChar>
 <_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
@@ -233,7 +233,7 @@ A.CallTo(() =&#62; mock«Link(ClassToMock)».«Field(Method)»(«Field(Params)»
 <_UsingClause href="#ref-67"/>
 </a1:TemplateData>
 <a1:TemplateData id="ref-54" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
-<_Expansion id="ref-68">using FakeItEasy;</_Expansion>
+<_Expansion id="ref-68">«AddNamespace(FakeItEasy)»</_Expansion>
 <_IsExpression>false</_IsExpression>
 <_SuppressLastChar>false</_SuppressLastChar>
 <_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
