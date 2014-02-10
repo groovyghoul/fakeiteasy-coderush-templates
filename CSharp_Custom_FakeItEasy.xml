@@ -1,0 +1,385 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:TemplateCategoryCollection id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-3"/>
+</a1:TemplateCategoryCollection>
+<a2:ArrayList id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-4"/>
+<_size>1</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-4" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-5"/>
+</SOAP-ENC:Array>
+<a1:TemplateCategory id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<Name id="ref-7">Custom</Name>
+<Comments id="ref-8"></Comments>
+<Enabled>true</Enabled>
+<Categories href="#ref-9"/>
+<Templates href="#ref-10"/>
+<ActionHint href="#ref-8"/>
+<ActionHintColor xsi:type="a4:Color" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing">
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>0</knownColor>
+<state>0</state>
+</ActionHintColor>
+<OptExpanded>false</OptExpanded>
+</a1:TemplateCategory>
+<a1:TemplateCategoryCollection id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-11"/>
+</a1:TemplateCategoryCollection>
+<a1:TemplateCollection id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-12"/>
+</a1:TemplateCollection>
+<a2:ArrayList id="ref-11" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-13"/>
+<_size>1</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-12" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-13" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-15"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-14" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<a1:TemplateCategory id="ref-15" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<Name id="ref-16">FakeItEasy</Name>
+<Comments href="#ref-8"/>
+<Enabled>true</Enabled>
+<Categories href="#ref-17"/>
+<Templates href="#ref-18"/>
+<ActionHint href="#ref-8"/>
+<ActionHintColor xsi:type="a4:Color" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing">
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>0</knownColor>
+<state>0</state>
+</ActionHintColor>
+<OptExpanded>true</OptExpanded>
+</a1:TemplateCategory>
+<a1:TemplateCategoryCollection id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-19"/>
+</a1:TemplateCategoryCollection>
+<a1:TemplateCollection id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-20"/>
+</a1:TemplateCollection>
+<a2:ArrayList id="ref-19" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-20" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-21"/>
+<_size>5</_size>
+<_version>5</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-21" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-22"/>
+<item href="#ref-23"/>
+<item href="#ref-24"/>
+<item href="#ref-25"/>
+<item href="#ref-26"/>
+</SOAP-ENC:Array>
+<a1:Template id="ref-22" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Name id="ref-27">fieanyi</_Name>
+<_Comment href="#ref-8"/>
+<_ExpansionTrigger xsi:type="a1:ExpansionTriggerOption" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">Primary</_ExpansionTrigger>
+<_CaseSensitiveName>false</_CaseSensitiveName>
+<_Category href="#ref-15"/>
+<_IsMultiFile>false</_IsMultiFile>
+<_SuppressFormatting>false</_SuppressFormatting>
+<_Items href="#ref-28"/>
+<OptSubIndex>-1</OptSubIndex>
+</a1:Template>
+<a1:Template id="ref-23" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Name id="ref-29">fieanys</_Name>
+<_Comment href="#ref-8"/>
+<_ExpansionTrigger xsi:type="a1:ExpansionTriggerOption" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">Primary</_ExpansionTrigger>
+<_CaseSensitiveName>false</_CaseSensitiveName>
+<_Category href="#ref-15"/>
+<_IsMultiFile>false</_IsMultiFile>
+<_SuppressFormatting>false</_SuppressFormatting>
+<_Items href="#ref-30"/>
+<OptSubIndex>-1</OptSubIndex>
+</a1:Template>
+<a1:Template id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Name id="ref-31">fiecr</_Name>
+<_Comment id="ref-32">Set up a call to return a value</_Comment>
+<_ExpansionTrigger xsi:type="a1:ExpansionTriggerOption" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">Primary</_ExpansionTrigger>
+<_CaseSensitiveName>false</_CaseSensitiveName>
+<_Category href="#ref-15"/>
+<_IsMultiFile>false</_IsMultiFile>
+<_SuppressFormatting>false</_SuppressFormatting>
+<_Items href="#ref-33"/>
+<OptSubIndex>-1</OptSubIndex>
+</a1:Template>
+<a1:Template id="ref-25" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Name id="ref-34">fief</_Name>
+<_Comment id="ref-35">Create a fake object</_Comment>
+<_ExpansionTrigger xsi:type="a1:ExpansionTriggerOption" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">Primary</_ExpansionTrigger>
+<_CaseSensitiveName>false</_CaseSensitiveName>
+<_Category href="#ref-15"/>
+<_IsMultiFile>false</_IsMultiFile>
+<_SuppressFormatting>false</_SuppressFormatting>
+<_Items href="#ref-36"/>
+<OptSubIndex>-1</OptSubIndex>
+</a1:Template>
+<a1:Template id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Name id="ref-37">fieu</_Name>
+<_Comment id="ref-38">Setup FakeItEasy using</_Comment>
+<_ExpansionTrigger xsi:type="a1:ExpansionTriggerOption" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">Primary</_ExpansionTrigger>
+<_CaseSensitiveName>false</_CaseSensitiveName>
+<_Category href="#ref-15"/>
+<_IsMultiFile>false</_IsMultiFile>
+<_SuppressFormatting>false</_SuppressFormatting>
+<_Items href="#ref-39"/>
+<OptSubIndex>-1</OptSubIndex>
+</a1:Template>
+<a1:TemplateDataCollection id="ref-28" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-40"/>
+</a1:TemplateDataCollection>
+<a1:TemplateDataCollection id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-41"/>
+</a1:TemplateDataCollection>
+<a1:TemplateDataCollection id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-42"/>
+</a1:TemplateDataCollection>
+<a1:TemplateDataCollection id="ref-36" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-43"/>
+</a1:TemplateDataCollection>
+<a1:TemplateDataCollection id="ref-39" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<CollectionBase_x002B_list href="#ref-44"/>
+</a1:TemplateDataCollection>
+<a2:ArrayList id="ref-40" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-45"/>
+<_size>1</_size>
+<_version>4</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-41" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-46"/>
+<_size>1</_size>
+<_version>4</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-42" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-47"/>
+<_size>1</_size>
+<_version>4</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-43" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-48"/>
+<_size>1</_size>
+<_version>4</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-44" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-49"/>
+<_size>1</_size>
+<_version>4</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-45" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-50"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-46" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-51"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-47" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-52"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-48" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-53"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-49" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-54"/>
+</SOAP-ENC:Array>
+<a1:TemplateData id="ref-50" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Expansion id="ref-56">A&#60;int&#62;._</_Expansion>
+<_IsExpression>false</_IsExpression>
+<_SuppressLastChar>false</_SuppressLastChar>
+<_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
+<_Priority>0</_Priority>
+<_Context href="#ref-57"/>
+<_UsingClause href="#ref-58"/>
+</a1:TemplateData>
+<a1:TemplateData id="ref-51" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Expansion id="ref-59">A&#60;string&#62;._</_Expansion>
+<_IsExpression>false</_IsExpression>
+<_SuppressLastChar>false</_SuppressLastChar>
+<_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
+<_Priority>0</_Priority>
+<_Context href="#ref-60"/>
+<_UsingClause href="#ref-61"/>
+</a1:TemplateData>
+<a1:TemplateData id="ref-52" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Expansion id="ref-62">var mock«Caret»«FieldStart»«Link(ClassToMock)»«FieldEnd»«BlockAnchor» = A.Fake&#60;I«Link(ClassToMock)»&#62;();
+A.CallTo(() =&#62; mock«Link(ClassToMock)».«Field(Method)»(«Field(Params)»).Returns(«Field(ValueToReturn)»);</_Expansion>
+<_IsExpression>false</_IsExpression>
+<_SuppressLastChar>false</_SuppressLastChar>
+<_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
+<_Priority>0</_Priority>
+<_Context href="#ref-63"/>
+<_UsingClause href="#ref-64"/>
+</a1:TemplateData>
+<a1:TemplateData id="ref-53" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Expansion id="ref-65">var mock«Caret»«FieldStart»«Link(ClassToMock)»«FieldEnd»«BlockAnchor» = A.Fake&#60;I«Link(ClassToMock)»&#62;();</_Expansion>
+<_IsExpression>false</_IsExpression>
+<_SuppressLastChar>false</_SuppressLastChar>
+<_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
+<_Priority>0</_Priority>
+<_Context href="#ref-66"/>
+<_UsingClause href="#ref-67"/>
+</a1:TemplateData>
+<a1:TemplateData id="ref-54" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Expansion id="ref-68">using FakeItEasy;</_Expansion>
+<_IsExpression>false</_IsExpression>
+<_SuppressLastChar>false</_SuppressLastChar>
+<_UseDoubleEqualsInsideParens>false</_UseDoubleEqualsInsideParens>
+<_Priority>0</_Priority>
+<_Context href="#ref-69"/>
+<_UsingClause href="#ref-70"/>
+</a1:TemplateData>
+<a1:ContextPickerData id="ref-57" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Selected href="#ref-71"/>
+<_Excluded href="#ref-72"/>
+</a1:ContextPickerData>
+<a5:StringCollection id="ref-58" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-73"/>
+</a5:StringCollection>
+<a1:ContextPickerData id="ref-60" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Selected href="#ref-74"/>
+<_Excluded href="#ref-75"/>
+</a1:ContextPickerData>
+<a5:StringCollection id="ref-61" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-76"/>
+</a5:StringCollection>
+<a1:ContextPickerData id="ref-63" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Selected href="#ref-77"/>
+<_Excluded href="#ref-78"/>
+</a1:ContextPickerData>
+<a5:StringCollection id="ref-64" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-79"/>
+</a5:StringCollection>
+<a1:ContextPickerData id="ref-66" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Selected href="#ref-80"/>
+<_Excluded href="#ref-81"/>
+</a1:ContextPickerData>
+<a5:StringCollection id="ref-67" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-82"/>
+</a5:StringCollection>
+<a1:ContextPickerData id="ref-69" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/DevExpress.CodeRush.Core/DevExpress.CodeRush.Core">
+<_Selected href="#ref-83"/>
+<_Excluded href="#ref-84"/>
+</a1:ContextPickerData>
+<a5:StringCollection id="ref-70" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-85"/>
+</a5:StringCollection>
+<a5:StringCollection id="ref-71" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-86"/>
+</a5:StringCollection>
+<a5:StringCollection id="ref-72" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-87"/>
+</a5:StringCollection>
+<a2:ArrayList id="ref-73" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a5:StringCollection id="ref-74" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-88"/>
+</a5:StringCollection>
+<a5:StringCollection id="ref-75" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-89"/>
+</a5:StringCollection>
+<a2:ArrayList id="ref-76" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a5:StringCollection id="ref-77" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-90"/>
+</a5:StringCollection>
+<a5:StringCollection id="ref-78" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-91"/>
+</a5:StringCollection>
+<a2:ArrayList id="ref-79" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a5:StringCollection id="ref-80" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-92"/>
+</a5:StringCollection>
+<a5:StringCollection id="ref-81" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-93"/>
+</a5:StringCollection>
+<a2:ArrayList id="ref-82" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a5:StringCollection id="ref-83" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-94"/>
+</a5:StringCollection>
+<a5:StringCollection id="ref-84" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Collections.Specialized/System">
+<data href="#ref-95"/>
+</a5:StringCollection>
+<a2:ArrayList id="ref-85" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>0</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-86" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-87" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-88" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-89" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-90" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-91" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-92" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-93" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-94" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+<a2:ArrayList id="ref-95" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-14"/>
+<_size>0</_size>
+<_version>1</_version>
+</a2:ArrayList>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
