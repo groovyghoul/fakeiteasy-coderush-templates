@@ -59,40 +59,30 @@ A.CallTo(() => mock«Link(ClassToMock)».«Field(Method)»(«Field(Params)»).Re
 
 ####Create ignore parameters####
 
-#####Any integer#####
-
-`fieanyi`
+`fieany?Type?`
 
 Expands to
 
 ```
-A<int>._
+A<[type]>._
 ```
+
+**Examples**
+
+`fieanyi` will expand to `A<int>._`<br />
+`fieanys` will expand to `A<string>._`<br />
+`fieanyd8` will expand to `A<DateTime>._`
 
 **Template**
 
 ```
-«:ufie»A<int>._
-```
-#####Any string#####
-
-`fieanys`
-
-Expands to
-
-```
-A<string>._
-```
-
-**Template**
-
-```
-«:ufie»A<string>._
+«:ufie»A<«?Get(Type)»>._
 ```
 
 ####Versions####
 | Ver        | Date           | Description of change  |
 | :-----------: |-------------| :-----|
 | 1      | 2013-FEB-09 | Initial Commit |
-| 2      | 2013-FEB-10 | Changed `fieu` to `ufie` and started using AddNameSpace (thanks to [@RoryBecker](http://twitter.com/RoryBecker) at DevExpress for the suggestions |
+| 2      | 2013-FEB-10 | Changed `fieu` to `ufie` and started using AddNameSpace (thanks to [@RoryBecker](http://twitter.com/RoryBecker) at DevExpress for the suggestions) |
 | 3      | 2013-FEB-13 | Title missing from `Any string` in README |
+| 4      | 2013-FEB-17 | Removed `fieanyi` and `fieanys`. Replaced with `fieany?Type?` |
